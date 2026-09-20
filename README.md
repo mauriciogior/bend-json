@@ -17,7 +17,7 @@ Numbers remain strings in `JNumber`. This preserves precision and spelling; a ty
 
 ## Use
 
-```bend
+```python
 import 0x<package-hash>/main.bend as Json
 
 def main() -> Result<&2, &2, Json.JsonError, Json.Json>:
@@ -26,7 +26,7 @@ def main() -> Result<&2, &2, Json.JsonError, Json.Json>:
 
 For a local checkout:
 
-```bend
+```python
 import ./bend-json/main.bend as Json
 ```
 
